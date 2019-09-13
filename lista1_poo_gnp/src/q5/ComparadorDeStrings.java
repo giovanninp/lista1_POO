@@ -24,7 +24,7 @@ public class ComparadorDeStrings {
 		boolean rep = true;
 		System.out.println("Insira um texto seguido do seu palindromo:");
 		while (rep) {
-			System.out.println("(Para sair da execução, digite q)");
+			System.out.println("(Para sair da execuÃ§Ã£o, digite q)");
 			String a = s.next();
 			if(a.equals("q")) {
 				break;
@@ -35,7 +35,7 @@ public class ComparadorDeStrings {
 			}
 			System.out.println(comp.equalsOrNot(a, b));
 		}
-		System.out.println("Fim de execução");
+		System.out.println("Fim de execucao");
 		s.close();
 	}
 
