@@ -22,7 +22,7 @@ public class ComparadorDeStrings {
 		Scanner s = new Scanner(System.in);
 		ComparadorDeStrings comp = new ComparadorDeStrings();
 		boolean rep = true;
-		System.out.println("Insira um texto seguido do seu palindromo:");
+		System.out.println("Insira um texto seguido do seu inverso:");
 		while (rep) {
 			System.out.println("(Para sair da execucao, digite q)");
 			String a = s.next();
